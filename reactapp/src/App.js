@@ -1,9 +1,9 @@
 import React from "react";
-import Data from "./Data/Data.js";
+import questionsData from "./questionData.js";
 import Results from "./components/UI/Results";
 import Button from "./components/UI/Button/Button.js";
 import Card from "./components/UI/Card/Card.js";
-import Input from "./Input.js";
+import Banner from "./Banner.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -117,7 +117,7 @@ class App extends React.Component {
         )}
         {this.state.showResults && (
           <>
-            <Input
+            <Banner
               questionsCorrect={this.state.questionsCorrect}
               numQuestions={questionsData.length}
             />
