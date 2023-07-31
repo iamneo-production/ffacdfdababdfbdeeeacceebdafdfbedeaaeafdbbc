@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import Card from './components/UI/Card/Card';
 import data from './Data/Data.js'
