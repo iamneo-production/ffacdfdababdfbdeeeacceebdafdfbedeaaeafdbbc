@@ -1,6 +1,6 @@
 import React from "react";
 import App from "../App";
-import { shallow, mount } from "enzyme";
+//import { shallow, mount } from "enzyme";
 
 
 var wrapper;
