@@ -46,7 +46,7 @@ function App() {
         } 
       </header>
       {show && <Banner ans={res}/>}
-      {btns == 5  &&
+      {btns === 5  &&
       <Button
         setShow={setShow}
         setResult={setResult}
