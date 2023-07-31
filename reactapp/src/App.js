@@ -3,7 +3,7 @@ import './App.css';
 import Card from './components/UI/Card/Card';
 import data from './Data/Data.js'
 import Button from './components/UI/Button/Button';
-import Banner from './components/UI/Input/Banner'
+import Banner from './components/UI/Input/Input'
 import { useState } from 'react';
 
 function App() {

@@ -1,5 +1,5 @@
 import React from "react";
-import './Banner.css'
+import './Input.css'
 
 export default function Banner(props) {
     return <h4 className="banner">
