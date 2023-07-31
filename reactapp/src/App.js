@@ -1,5 +1,5 @@
 import React from "react";
-import Data from ".src/Data.js";
+import Data from "./Data/Data.js";
 import Results from "./components/UI/Results";
 import Button from "./components/UI/Button/Button.js";
 import Card from "./components/UI/Card/Card.js";
