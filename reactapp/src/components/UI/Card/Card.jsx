@@ -4,7 +4,6 @@ import './Card.css'
 
 export default function Card(props) {
     const [isDis, setIsDis] = useState([0,0,0,0]);
-    // console.log(isDis);
     return <div className={"mycard mycard"+props.id}>
         <h4 className="qTitle">{props.question}</h4>
         {Object.keys(props.options).map((key, index) => {
@@ -13,7 +12,7 @@ export default function Card(props) {
                     value={props.options[key]}
                     key={index} 
                     ans={index}
-                    dis={isDis[index] == 1}
+                    dis={isDis[index] === 1}
                     option={props.options[key]}
                     answer={props.answer} 
                     text={props.options[key]}
