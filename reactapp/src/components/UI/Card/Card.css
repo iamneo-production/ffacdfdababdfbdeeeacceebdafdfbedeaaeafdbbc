@@ -1,0 +1,32 @@
+.mycard {
+    background-color: darkred;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.qTitle {
+    color: white;
+}
+
+.mycard0 {
+    grid-row: 1;
+    grid-column: span 3;
+}
+.mycard1 {
+    grid-row: 1;
+    grid-column: span 3;
+}
+.mycard2 {
+    grid-row: 2;
+    grid-column: span 2;
+}
+.mycard3 {
+    grid-row: 2;
+    grid-column: span 2;
+}
+.mycard4 {
+    grid-row: 2;
+    grid-column: span 2;
+}

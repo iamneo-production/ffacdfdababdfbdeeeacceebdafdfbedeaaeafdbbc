@@ -1,0 +1,18 @@
+.qOptions {
+    background-color: coral;
+    color: gray;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 7px;
+}
+
+.qOptions:hover {
+    cursor: pointer;
+    background-color: wheat;
+    color: coral;
+}
+
+.qOptions:disabled {
+    opacity: 0.3;
+}
